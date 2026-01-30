@@ -40,4 +40,3 @@ Abre `http://localhost:5173` en el navegador.
 ```bash
 npm run build
 npm run preview
-```
