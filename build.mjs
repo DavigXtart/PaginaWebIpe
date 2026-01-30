@@ -1,10 +1,16 @@
-import { build } from 'vite'
-import config from './vite.config.js'
+import { spawnSync } from 'child_process'
+import { fileURLToPath } from 'url'
+import { dirname, join } from 'path'
 
-try {
-  await build(config)
-  console.log('Vite build completed successfully.')
-} catch (err) {
-  console.error('Vite build failed:', err)
-  process.exit(1)
+const __dirname = dirname(fileURLToPath(import.meta.url))
+
+const result = spawnSync('npx', ['vite', 'build'], {
+  cwd: __dirname,
+  stdio: 'inherit',
+  shell: true,
+})
+
+if (result.status !== 0) {
+  process.exit(result.status ?? 1)
 }
+console.log('Vite build completed successfully.')

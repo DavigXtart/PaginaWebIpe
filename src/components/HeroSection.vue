@@ -15,7 +15,7 @@ function scrollToUF6() {
         class="animate-fade-in-up text-3xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl"
         style="animation-delay: 0.1s"
       >
-        IPE II: Creación y Gestión de Startups
+        Creación y Gestión de Startups
       </h1>
       <p
         class="mt-4 animate-fade-in-up text-base text-slate-300 sm:mt-6 sm:text-lg md:text-xl"

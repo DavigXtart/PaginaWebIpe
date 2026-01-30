@@ -28,7 +28,7 @@ const cards = [
   >
     <div class="mx-auto max-w-6xl">
       <h2 class="mb-8 text-center text-2xl font-bold text-white sm:mb-12 sm:text-3xl md:text-4xl">
-        UF6 · Fuentes de Financiación
+        Fuentes de Financiación
       </h2>
       <div class="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-3">
         <article

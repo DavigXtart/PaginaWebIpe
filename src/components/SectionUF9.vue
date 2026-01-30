@@ -28,7 +28,7 @@ const steps = [
   >
     <div class="mx-auto max-w-3xl">
       <h2 class="mb-8 text-center text-2xl font-bold text-white sm:mb-12 sm:text-3xl md:text-4xl">
-        UF9 · Trámites Administrativos
+        Trámites Administrativos
       </h2>
 
       <!-- Timeline vertical -->

@@ -33,7 +33,7 @@ const esRentable = computed(() => margenPorUsuario.value > 0)
   >
     <div class="mx-auto max-w-6xl">
       <h2 class="mb-8 text-center text-2xl font-bold text-white sm:mb-12 sm:text-3xl md:text-4xl">
-        UF7 · Finanzas & Calculadora
+        Finanzas & Calculadora
       </h2>
 
       <!-- Calculadora SaaS -->

@@ -1,5 +1,4 @@
 <script setup>
-// IPE II - Ecosistema Startup (SPA)
 import Navbar from './components/Navbar.vue'
 import HeroSection from './components/HeroSection.vue'
 import SectionUF6 from './components/SectionUF6.vue'

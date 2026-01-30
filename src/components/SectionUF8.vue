@@ -22,7 +22,7 @@ const tabs = [
   >
     <div class="mx-auto max-w-6xl">
       <h2 class="mb-8 text-center text-2xl font-bold text-white sm:mb-12 sm:text-3xl md:text-4xl">
-        UF8 · Fiscalidad y Legalidad
+        Fiscalidad y Legalidad
       </h2>
 
       <!-- Tabs -->

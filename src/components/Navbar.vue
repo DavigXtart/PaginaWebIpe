@@ -5,10 +5,10 @@ const menuOpen = ref(false)
 
 const sections = [
   { id: 'hero', label: 'Inicio' },
-  { id: 'uf6', label: 'UF6 Financiación' },
-  { id: 'uf7', label: 'UF7 Finanzas' },
-  { id: 'uf8', label: 'UF8 Fiscalidad' },
-  { id: 'uf9', label: 'UF9 Trámites' },
+  { id: 'uf6', label: 'Financiación' },
+  { id: 'uf7', label: 'Finanzas' },
+  { id: 'uf8', label: 'Fiscalidad' },
+  { id: 'uf9', label: 'Trámites' },
 ]
 
 function scrollTo(id) {
@@ -40,7 +40,7 @@ onUnmounted(() => {
     class="sticky top-0 z-50 w-full border-b border-white/10 bg-slate-900/70 backdrop-blur-xl transition-all duration-300"
   >
     <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
-      <span class="text-base font-semibold text-white sm:text-lg">IPE II · Startup</span>
+      <span class="text-base font-semibold text-white sm:text-lg">Ecosistema Startup</span>
 
       <!-- Desktop: enlaces visibles -->
       <ul class="hidden items-center gap-1 md:flex md:gap-4">
